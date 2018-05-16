@@ -4,7 +4,7 @@ import { expect } from 'chai';
 import sinon from 'sinon';
 import EventEmitter from 'eventemitter3'; // eslint-disable-line import/no-extraneous-dependencies
 
-import WindowStub, { windowEventTitles } from './window-stub';
+import WindowStub, { windowEventTitles } from '../lib/window-stub';
 import initHistoryCallback, { eventTitles } from '../lib/history-callback';
 import { awaitEvent } from './utils';
 
