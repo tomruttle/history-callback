@@ -1,6 +1,6 @@
 {
   "name": "history-callback",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Calls a callback when the browser history changes",
   "main": "index.js",
   "scripts": {
