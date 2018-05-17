@@ -1,6 +1,6 @@
 /* eslint-disable no-var */
 
-var historyCallback = require('./es5/history-callback');
+var historyCallback = require('./es5/index');
 
 module.exports = historyCallback.default;
 

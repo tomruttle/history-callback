@@ -4,7 +4,7 @@ const SUPPORTED_BROWSERS = ['>0.25%', 'not ie 11', 'not op_mini all'];
 
 module.exports = (env) => ({
   entry: {
-    'history-callback': ['babel-polyfill', path.join(__dirname, 'lib', 'history-callback.js')],
+    'history-callback': ['babel-polyfill', path.join(__dirname, 'lib', 'index.js')],
   },
   output: {
     path: path.join(__dirname, 'dist'),
